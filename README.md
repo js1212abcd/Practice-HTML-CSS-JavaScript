@@ -1,2 +1,2 @@
 # Practice-HTML-CSS-JavaScript
-Practice HTML CSS JavaScript 
+HTML CSS JavaScript Projects
