@@ -1,0 +1,218 @@
+body {
+    display: block;
+    background-color: #fff;
+    color: black;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 2300px) { 
+    .header {
+        padding: 0 0 3% 0;
+    }
+    .header-text {
+        margin-top: 95px;
+    }
+    .navbar {
+        padding: 0;
+    }
+    .header .img-fluid {
+        width: 100%;
+        margin: 1px 0 -40px 0;
+    }
+    section img{
+        border-radius: 3px 3px 0 0;
+    }
+    h2 {
+     text-align: center;
+    padding-top: 34px;
+    }
+    .mainGame {
+        background-color:rgb(52,58,64);
+        color: white;
+        border: none;
+        text-align: center;
+    }
+    .mainGame2 {
+        background-color: rgb(248,249,250);
+    
+    }
+    .btn-warning {
+        background-color: black;
+        color: white;
+        border: none;
+    }
+    .btn-warning2 {
+        background-color: rgb(255,127,80);
+        color: white;
+    }
+    .row .gameP {
+        /* width: 100%;
+        padding: 0 306px 15px; */
+        padding: 0px 216px;
+    }
+    .mainGame img {
+        width: 100%; 
+        padding-bottom: 18px;
+    }
+    .gameSectionTitle {
+        
+        width: 701px;
+        padding: 52px;
+    }
+    section {
+        text-align: center;
+    }
+    section p { 
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 36px;
+        } 
+    section, footer h6 {
+            padding-top: 17px;
+        }
+    .justify-content-around {
+        padding-bottom: 40px;
+    }
+    .mainGame2 img {
+        width: 100%;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .mainGame2 h6 {
+    padding-top: 19px;
+    }
+    .form-group {
+        display: grid;
+    }
+    .btn-warning3 {
+        width: 100%;
+        color: white;
+        background-color:rgb(255,127,80);
+        border: none;
+    }
+    footer {
+        background-color:rgb(52,58,64);
+        color: white;
+        padding: 8% 0 7% 0;
+    }
+    .left {
+        text-align: left;
+    }
+    .col-form-label {
+        border-radius: 6px;
+        padding-left: 15px;
+        font-weight: 400;
+    }
+    .ft {
+        text-align: center;
+        margin: 42px 0 -22px 0;
+    }
+} 
+
+@media (max-width: 768px){ 
+    .header{
+        display: flex;
+        padding-bottom: 103px;
+    }
+    .header .img-fluid {
+        width: 100%;
+        margin: -50px 0 -96px 0;
+    }
+    article {
+        width: 62%;
+    }
+    .btn-warning {
+        display: none;
+    }
+    .btn-warning2 {
+        border: 1px solid rgba(255, 0, 55, 0.733);
+        background-color: lightsalmon;
+    }
+    .col .gameP {
+        padding: 0;
+    }
+    .mainGame img {
+        padding-bottom: 18px;
+    }
+    .mainGame h6 {
+        font-size: 1.3rem;
+    }
+    .navbar-brand {
+        font-size: 39px;
+    font-weight: 700;
+    }
+    .navMenu{
+        padding-top: 10px;
+    }
+    .header-text {
+        font-size: 1.5em;
+    }
+    .header h1{
+    padding-bottom: 17px;
+    font-size: 1.8em;
+    }
+    .btn-warning2 {
+        padding: 14px 29px;
+    font-weight: 500;
+    font-size: 21px;
+    }
+    .container h2{
+        padding: 38px 0 13px;
+    }
+    section p{
+        font-size: 1.1em;
+        padding: 5px 0 50px;
+    }
+   
+    .maniGame2img {
+        padding-left: 0;
+    }
+    .mainGame2 h6 {
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+
+   
+}
+
+@media (max-width: 480px) {  
+    .mainGame img {
+        width: 100%;
+    }
+    
+    .maniGame2img {
+        display: contents;
+    }
+    .btn-warning3 {
+        padding: 10px;
+    }
+    #exampleInputEmail1 {
+    font-size: 17px;
+    font-weight: 500;
+    }
+    .navbar-brand {
+        font-size: 37px;
+    }
+    .header .img-fluid {
+        width: 95%;
+    }
+    .header h1 {
+        font-size: 2.1em;
+    }
+    .header .container {
+        padding: 0 30px;
+    }
+    .header {
+        padding-bottom: 33px;
+    }
+    .btn-warning2 {
+        padding: 12px 29px;
+    }    
+    .mainGame h6 {
+        font-size: 1.2rem;
+    }
+    footer {
+        padding: 15% 0 15% 0;
+        margin-top: -53px;
+    }
+}
