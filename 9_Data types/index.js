@@ -81,11 +81,18 @@ function fru() {
 }
 
 // 9
-function myFunction() {
-    let str = [58, 14, 48, 12, 31, 19, 10];
-    let res = str.replace(/[10-20]/g, '*');
-    document.getElementById(res)
-}
+function myFunction(arr) {
+    let arr2 = []; // новый массив
+    for (let i = 0; i < arr.length; i++) { // перебираю массив
+      if (arr[i] >= 10 && arr[i] <= 20) {  // если arr[i] больше 10 и меньше 20
+        arr2.push("*");                    // тогда пушу в новый массив '*'
+      } else {
+        arr2.push(arr[i]); // в других случаях пушу в нов. мас. неизмененные значения
+      }
+    }
+    return arr2; // возвращаю отсортированный массив
+  }
+  myFunction([9, 10, 11, 19, 20, 21, 58, 14, 48, 12, 31]); // первыми числами проверяю граничные значения
 
 
 
